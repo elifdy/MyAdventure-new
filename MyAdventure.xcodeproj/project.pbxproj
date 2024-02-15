@@ -16,6 +16,8 @@
 		1F95B3382B7D226800633187 /* MyAdventureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95B3372B7D226800633187 /* MyAdventureTests.swift */; };
 		1F95B3422B7D226800633187 /* MyAdventureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95B3412B7D226800633187 /* MyAdventureUITests.swift */; };
 		1F95B3442B7D226800633187 /* MyAdventureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95B3432B7D226800633187 /* MyAdventureUITestsLaunchTests.swift */; };
+		1F95B3532B7D22AE00633187 /* RecipeSelectionLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95B3522B7D22AE00633187 /* RecipeSelectionLogic.swift */; };
+		1F95B3552B7D22BD00633187 /* DecisionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95B3542B7D22BD00633187 /* DecisionLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1F95B33D2B7D226800633187 /* MyAdventureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAdventureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F95B3412B7D226800633187 /* MyAdventureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdventureUITests.swift; sourceTree = "<group>"; };
 		1F95B3432B7D226800633187 /* MyAdventureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdventureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F95B3522B7D22AE00633187 /* RecipeSelectionLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSelectionLogic.swift; sourceTree = "<group>"; };
+		1F95B3542B7D22BD00633187 /* DecisionLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,8 @@
 			children = (
 				1F95B3202B7D226600633187 /* AppDelegate.swift */,
 				1F95B3222B7D226700633187 /* SceneDelegate.swift */,
-				1F95B3242B7D226700633187 /* ViewController.swift */,
+				1F95B3512B7D229500633187 /* Controller */,
+				1F95B3502B7D228C00633187 /* Model */,
 				1F95B3262B7D226700633187 /* Main.storyboard */,
 				1F95B3292B7D226700633187 /* Assets.xcassets */,
 				1F95B32B2B7D226700633187 /* LaunchScreen.storyboard */,
@@ -125,6 +130,23 @@
 				1F95B3432B7D226800633187 /* MyAdventureUITestsLaunchTests.swift */,
 			);
 			path = MyAdventureUITests;
+			sourceTree = "<group>";
+		};
+		1F95B3502B7D228C00633187 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F95B3522B7D22AE00633187 /* RecipeSelectionLogic.swift */,
+				1F95B3542B7D22BD00633187 /* DecisionLayer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F95B3512B7D229500633187 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F95B3242B7D226700633187 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F95B3552B7D22BD00633187 /* DecisionLayer.swift in Sources */,
 				1F95B3252B7D226700633187 /* ViewController.swift in Sources */,
+				1F95B3532B7D22AE00633187 /* RecipeSelectionLogic.swift in Sources */,
 				1F95B3212B7D226600633187 /* AppDelegate.swift in Sources */,
 				1F95B3232B7D226700633187 /* SceneDelegate.swift in Sources */,
 			);
